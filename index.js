@@ -36,7 +36,7 @@ BOT COMMANDS
 
 client.on('message', message => {
     if (message.author.id == '190057608839823369') {
-    if (message.content.startsWith(`$restart`)) {
+    if (message.content.startsWith(`.restart`)) {
             resetBot(message.channel);
     }
   }

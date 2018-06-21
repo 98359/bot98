@@ -161,7 +161,7 @@ client.on('guildMemberAdd', member => {
         .setColor('#FF000')
         .setThumbnail(memberavatar)
         .addField('✘ | Name: ', `${member}`)
-        .addField('✘ | Welcome', `Bine ai venit  `)
+        .addField('✘ | Welcome', `Bine ai venit pe server Speram sa te distrezi alaturi de noi. Si nu uita sa citesti :beginner:𝕽ules:beginner:-ul  `)
         .setTimestamp()
 
         channel.sendEmbed(embed);
@@ -175,7 +175,7 @@ client.on('guildMemberRemove', member => {
         .setColor('#ff0000')
         .setThumbnail(memberavatar)
         .addField('✘ | Name: ', `${member}`)
-        .addField('✘ | Bye -', `La revedere , ne  vom revedea`)
+        .addField('✘ | Bye -', `A iesit :sob:... Speram sa te mai intorci pe la noi ... Esti mereu bine venit !`)
         .setTimestamp()
 
         channel.sendEmbed(embed);

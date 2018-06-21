@@ -27,7 +27,7 @@ client.on('message', message =>{
     .setTitle('BOT INFO')
     .setDescription(`•prefix --> $$
 BOT COMMANDS
-• || $$mass || $$support || $$info || $$say || $$ping || $$serverinfo || $$restart  || $$invite || f?botinfo || `)
+• || $$mass || $$support || $$info || $$say || $$ping || $$serverinfo || $$restart  || $$invite || $$botinfo || `)
     .setColor('RANDOM')
    message.channel.sendEmbed(embed);
   }
